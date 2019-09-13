@@ -121,8 +121,8 @@ while not crashed:
     pygame.draw.line(gameDisplay,2,[x,y+100],[x+300,y+100],4)
     if mess:
         
-            message_display("X",cor)
-            message_display("O",o_co)
+            message_display("x",cor)
+            message_display("o",o_co)
         
     pygame.display.update()
     clock.tick(60)
